@@ -10,7 +10,7 @@ function getRandomHexColor() {
   }
 
   function createBoxes() {
-    const amountInput = document.getElementById('inputAmount');
+    const amountInput = document.querySelector('input[type="number"]');
     const amount = parseInt(amountInput.value, 10);
 
     if (isNaN(amount) || amount < 1 || amount > 100) {

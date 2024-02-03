@@ -1,0 +1,8 @@
+#boxes {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box {
+    margin: 2px;
+}
